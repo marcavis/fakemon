@@ -1,0 +1,19 @@
+char = Character()
+char.name = "YURIA"
+char.owner = "MARCAVIS, TOHKA"
+char.gender = "herm"
+char.stats = [50, 80, 40, 35, 50, 95]
+char.types = ["dark"]
+char.moves[0] = ['dark', 'dark allure', 10]
+char.moves[1] = ['normal', 'retaliate', 5]
+char.moves[2] = ['bug', 'u-turn', 20]
+char.moves[3] = ['dark', 'sucker punch', 5]
+char.ability = "silver tongue"
+char.abText[0] = "Lowers the foe's special"
+char.abText[1] = "attack stat."
+char.custom[0] = "Changes foe's type to DARK,"
+char.custom[1] = "if not already. Restores HP."
+char.customPower = 0
+char.customAccuracy = 100
+
+char.art = "artfonpro/" + char.name.lower() + ".png"

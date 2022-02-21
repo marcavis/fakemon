@@ -1,0 +1,19 @@
+char = Character()
+char.name = "KARIN"
+char.owner = "MARCAVIS, LUNA"
+char.gender = "herm"
+char.stats = [50, 60, 40, 70, 100, 80]
+char.types = ["ghost", "fairy"]
+char.moves[0] = ['fairy', 'lucent beam']
+char.moves[1] = ['psychic', 'calm mind']
+char.moves[2] = ['rock', 'power gem']
+char.moves[3] = ['ghost', 'shadow ball']
+char.ability = "ethereal"
+char.abText[0] = "Halves physical damage,"
+char.abText[1] = "both dealt and received."
+char.custom[0] = "Intense light that heals"
+char.custom[1] = "the foe's status conditions."
+char.customPower = 100
+char.customAccuracy = 100
+
+char.art = "artfonpro/" + char.name.lower() + ".png"

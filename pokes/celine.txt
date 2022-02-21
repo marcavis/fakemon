@@ -1,0 +1,19 @@
+char = Character()
+char.name = "Celine"
+char.owner = "MARCAVIS, CLU"
+char.gender = "herm"
+char.stats = [70, 88, 60, 103, 62, 69]
+char.types = ["Electric", "Dragon"]
+char.moves[0] = ['Electric', 'Thunder Call']
+char.moves[1] = ['Normal', 'Sing']
+char.moves[2] = ['Normal', 'Hyper Voice']
+char.moves[3] = ['Fairy', 'Disarming Voice']
+char.ability = "Musician"
+char.abText[0] = "Boosts the power of sound-"
+char.abText[1] = "based moves."
+char.custom[0] = "A thunderous yell that may"
+char.custom[1] = "cause flinching."
+char.customPower = 80
+char.customAccuracy = 100
+
+char.hasArt = False
